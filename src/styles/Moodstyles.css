@@ -1,0 +1,105 @@
+/* MoodStyles.css */
+/*
+.questionnaire-page,
+.landing-page {
+    background-color: #ffffff;
+    /* White background for content area */
+   /* padding: 40px; 
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    /* Responsive width */
+   /* margin: auto;
+    /* Center in the available space */
+  /*  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* MoodStyles.css */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('../assets/bg-img.jpg') no-repeat center center fixed;
+    background-size:  cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+}
+
+.landing-page,
+.questionnaire-page {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Semi-transparent white */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    /* Responsive width */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* The rest of  styles for h1, .question, input[type="range"], and button */
+
+.questionnaire-page h1,
+.landing-page h1 {
+    color: #213547;
+    text-align: center;
+}
+
+.question {
+    width: 100%;
+    /* Full width of the container */
+    margin-bottom: 20px;
+}
+
+input[type="range"] {
+    width: calc(100% - 20px);
+    /* Full width minus the padding */
+    margin: 10px 0;
+}
+
+/* Increased specificity for button styles */
+.questionnaire-page button,
+.landing-page button {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.questionnaire-page button:hover,
+.landing-page button:hover {
+    opacity: 0.8;
+}
+
+/* Set the background image for the body */
+/*body {
+    background-image: url('../assets/bg-img.jpg');
+    /* Update with the correct path */
+   /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
